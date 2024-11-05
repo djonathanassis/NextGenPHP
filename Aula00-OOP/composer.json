@@ -1,0 +1,15 @@
+{
+    "name": "phpnextgen/aula00-oop",
+    "autoload": {
+        "psr-4": {
+            "Mylog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "djonathanassis",
+            "email": "djonathan.oliveira@truckpag.com.br"
+        }
+    ],
+    "require": {}
+}
