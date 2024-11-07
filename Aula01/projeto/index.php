@@ -13,7 +13,7 @@ function formatServices(string $servicesInline): string {
         HTML;
     }
 
-    return $services;
+    return $servicesHtml;
 }
 
 $template = file_get_contents(__DIR__ . '/template/base.html');
@@ -25,3 +25,5 @@ $replaces = [
 ];
 
 $output = str_replace(array_keys($replaces), $replaces, $template);
+
+echo $output;
