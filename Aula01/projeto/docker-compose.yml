@@ -3,6 +3,7 @@ services:
     image: "php:8.3-alpine"
     volumes:
       - ".:/projeto"
+      - ./php.ini:/usr/local/etc/php/php.ini
     ports:
       - "8011:80"
     tty: true
