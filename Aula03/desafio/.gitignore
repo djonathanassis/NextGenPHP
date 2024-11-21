@@ -1,4 +1,5 @@
+html
 .phpunit.cache
 .phpunit.result.cache
 .idea
-.vendor
+vendor
